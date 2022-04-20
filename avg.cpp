@@ -3,14 +3,17 @@ using namespace std;
 
 int main()
 {
-	int hrn;
+	double uah;
 
 
-	cout >> "Enter hrn : ";
-	cin >> hrn;
+	cout << "Enter UAH : ";
+	cin >> uah;
 
-	double usd = hrn / 29;
-	double eur = hrn / 32;
+	double usd = uah / 29;
+	double eur = uah / 32;
 
-	cout >> usd;
+	cout << "\n\tUAH to USD : " << usd << "\n\n";
+	cout << "\tUAH to EUR : " << eur << "\n";
+
+	return 0;
 }
