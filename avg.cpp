@@ -3,20 +3,14 @@ using namespace std;
 
 int main()
 {
-	int num1;
-	int num2;
-	int num3;
+	int hrn;
 
-	cout << "\tEnter first num : ";
-	cin >> num1;
 
-	cout << "\tEnter second num : ";
-	cin >> num2;
+	cout >> "Enter hrn : ";
+	cin >> hrn;
 
-	cout << "\tEnter third num : ";
-	cin >> num3;
+	double usd = hrn / 29;
+	double eur = hrn / 32;
 
-	cout << "Average number : " << (num1 + num2 + num3) / 3 << "\n";
-
-	return 0;
+	cout >> usd;
 }
