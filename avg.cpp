@@ -18,4 +18,5 @@ int main()
 
 	cout << "Average number : " << (num1 + num2 + num3) / 3 << "\n";
 
+	return 0;
 }
